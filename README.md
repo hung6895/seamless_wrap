@@ -31,7 +31,7 @@ Run the script using:
 
 bash
 Copy code
-python h51_client.py [OPTIONS]
+`python h51_client.py [OPTIONS]`
 Options:
 --tgt_lang: Target language for transcription (eng for English, vie for Vietnamese). Default: eng.
 --save: Save the transcription to a file. Default: Disabled.
@@ -41,7 +41,7 @@ Print transcription to console in English:
 
 bash
 Copy code
-python h51_client.py --tgt_lang eng
+`python h51_client.py --tgt_lang eng`
 Save transcription to a file:
 
 bash
