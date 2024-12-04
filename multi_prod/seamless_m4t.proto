@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package seamlessm4t;
+
+// Define the gRPC service
+service SeamlessM4TService {
+    // Unary RPC for speech-to-text
+    rpc SpeechToText(SpeechToTextRequest) returns (SpeechToTextResponse);
+}
+
+// Define the request message for speech-to-text
+message SpeechToTextRequest {
+    bytes audio = 1;         // The audio file data in bytes
+    string tgt_lang = 2;     // The target language for transcription (e.g., "eng", "fra")
+}
+
+// Define the response message for speech-to-text
+message SpeechToTextResponse {
+    string text = 1;         // The transcribed text from the audio
+}
+
