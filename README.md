@@ -1,5 +1,5 @@
 # Audio Transcription Client
-
+@email:nvh0@yahoo.com
 This Python application records audio from your microphone, sends it to a gRPC server for transcription, and outputs the transcriptions. The user can control the start and stop of the program with specific key inputs (`s` to start, `q` to stop). The transcriptions can either be printed to the console or saved to a file.
 
 ## Features
